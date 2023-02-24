@@ -5,56 +5,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="container">
+<nav class="row">
+  <img src="assets/images/logo.svg" alt="W logo">
+  <h1>Menu</h1>
+</nav>
 
+  <!--
   Home
   New
   Popular
   Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+  Categories -->
+  <div class="row">
+  <main class="col-12">
+    <img src="assets/images/image-web-3-mobile.jpg" alt ="main image">
+    <h1>
+      The Bright Future of Web 3.0?
+    </h1>
+    <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      <button>Read More</button>
+  </main>
+</div>
+<div class="row">
+  <aside class="col-12 col-md-8">
+    <h2>New</h2>
+    <div>
+    <h3> Hydrogen VS Electric Cars</h3>
+    <h4> Will hydrogen-fueled cars ever catch up to EVs?</h4>
+    <hr>
+    </div>
+    <div>
+      <h3> The Downsides of AI Artistry</h3>
+      <h4>  What are the possible adverse effects of on-demand AI image generation? </h4>
+      <hr>
+    </div>
+    <div>
+      <h3>Is VC Funding Drying Up?</h3>
+      <h4>Private funding by VC firms is down 50% YOY. We take a look at what that means.</h4>
+      <hr>
+    </div>
+  </aside>
+</div>
+<div class="row">
+  <section class="col-12">
+    <div class="mini">
+      <img src="assets/images/image-retro-pcs.jpg" alt="retro pcs">
+      <div class="inside-mini">
+      <h4>01</h4>
+      <h5>Reviving Retro PCs</h5>
+      <h6> What happens when old PCs are given modern upgrades?</h6>
+    </div>
+    </div>
+    <div class="mini">
+      <img src="assets/images/image-top-laptops.jpg" alt="laptop keyboard">
+      <div class="inside-mini">
+      <h4>02</h4>
+      <h5>Top 10 Laptops of 2022</h5>
+      <h6> Our best picks for various needs and budgets.</h6>
+    </div>
+    </div>
+    <div class="mini">
+      <img src="assets/images/image-gaming-growth.jpg" alt="controller">
+      <div class="inside-mini">
+      <h4>03</h4>
+      <h5>The Growth of Gaming</h5>
+      <h6>
+        How the pandemic has sparked fresh opportunities.
+      </h6>
+    </div>
+    </div>
+  </section>
+</div>
+</div>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Victoria Benoit</a>.
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
